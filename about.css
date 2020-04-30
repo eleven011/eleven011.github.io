@@ -4,3 +4,17 @@ body {
     font-style: normal;
     font-weight: 700;
 }
+
+/*home button*/
+button {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #fe6883;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: #b42d46;
+    color: white;
+}
