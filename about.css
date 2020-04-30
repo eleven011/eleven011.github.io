@@ -5,6 +5,16 @@ body {
     font-weight: 700;
 }
 
+.container {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+    position: relative;
+    align-content: center;
+    align-items: center;
+}
+
 /*home button*/
 button {
     margin-left: 10px;
@@ -17,4 +27,11 @@ button {
 button:hover {
     background-color: #b42d46;
     color: white;
+}
+
+.portrait {
+    object-fit: cover;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
 }
