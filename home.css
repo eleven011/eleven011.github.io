@@ -28,6 +28,7 @@ ul {
     font-size: 50px;
     text-align: center;
     margin-left: 0;
+    padding-left: 0px;
 }
 
 li {
@@ -55,17 +56,22 @@ a:active {
 @media screen and (max-width: 500px) {
     .contents {
         align-self: center;
+        align-items: center;
     }
 
     .ul {
         align-self: center;
     }
-    
+
     .computer {
         margin-right: 0;
+        object-fit: cover;
+        width: 300px;
     }
 
     .laptop {
         margin-left: 0;
+        object-fit: cover;
+        width: 300px;
     }
 }
