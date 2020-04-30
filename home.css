@@ -1,4 +1,54 @@
 body {
     background-color: #fe6883;
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.contents {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.computer {
+    object-fit: cover;
+    width: 500px;
+    margin-right: auto;
+}
+
+.laptop {
+    object-fit: cover;
+    width: 500px;
+    margin-left: auto;
+}
+
+ul {
+    font-size: 50px;
+    text-align: center;
+    margin-left: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(59, 35, 35);
+}
+  
+a:active {
+    color: white;
 }
 
