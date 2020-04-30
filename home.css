@@ -52,3 +52,20 @@ a:active {
     color: white;
 }
 
+@media screen and (max-width: 500px) {
+    .contents {
+        align-self: center;
+    }
+
+    .ul {
+        align-self: center;
+    }
+    
+    .computer {
+        margin-right: 0;
+    }
+
+    .laptop {
+        margin-left: 0;
+    }
+}
