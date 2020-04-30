@@ -18,3 +18,33 @@ button:hover {
     background-color: #b42d46;
     color: white;
 }
+
+.container {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.project-brief {
+    display: block;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    color: white;
+}
+
+.picture {
+    display: block;
+    object-fit: cover;
+    width: 300px;
+    margin: 20px
+}
