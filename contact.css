@@ -5,18 +5,27 @@ body {
     font-weight: 700;
 }
 
+p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
 .container {
     max-width: 500px;
     width: 100%;
     margin: 0 auto;
+    margin-top: 25px;
     position: relative;
     align-content: center;
+    align-items: center;
   }
   
 form {
     background: #fe6883; 
     padding: 25px;
     margin: 150px 0;
+    margin-top: 30px;
     color: white;
 }
 
@@ -24,12 +33,21 @@ h2 {
     text-align: center;
     font-size: 35px;
     padding-bottom: 25px;
+    font-weight: 700;
 }
 
 .btn.btn-primary {
     display: block;
     text-align: center;
     margin: 0 auto;
-    background: #1641cf;
-    color: #fff;
+    background: white;
+    color: #fe6883;
+    font-weight: 700;
+}
+
+.heart {
+    object-fit: cover;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
 }
