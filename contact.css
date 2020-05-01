@@ -9,6 +9,10 @@ p {
     font-size: 15px;
     text-align: center;
     font-weight: 500;
+    align-self: center;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 15px;
 }
 
 .container {
@@ -70,4 +74,22 @@ button:hover {
     display: block;
     margin: 0 auto;
     padding-bottom: 25px;;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(59, 35, 35);
+}
+  
+a:active {
+    color: white;
 }
