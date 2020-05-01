@@ -2,7 +2,8 @@ body {
     background-color: #fe6883;
     font-family: aktiv-grotesk, sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 /*home button*/
@@ -26,12 +27,28 @@ button:hover {
     align-items: center;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+.header {
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .project {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
     border: 2px solid white;
     border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .project-brief {
@@ -47,4 +64,10 @@ button:hover {
     object-fit: cover;
     width: 300px;
     margin: 20px
+}
+
+@media screen and (max-width: 765px) {
+    .project {
+        flex-direction: column-reverse;
+    }
 }
